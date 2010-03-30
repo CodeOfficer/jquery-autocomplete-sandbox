@@ -1,0 +1,12 @@
+
+For to_json, only the overwritten method of the instance you call to_json on will be executed;
+for every included model, the default implementation is used.
+http://techblog.floorplanner.com/2008/05/22/developing-restful-apis-in-rails/
+
+
+Associations and to_json on collections of objects
+http://nhw.pl/wp/2009/05/22/associations-and-to_json-on-collections-of-objects
+
+
+*** Synchronizing Core Data With Rails (slide #28) ***
+http://www.slideshare.net/metaskills/synchronizing-core-data-with-rails

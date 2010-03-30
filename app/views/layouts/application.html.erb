@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Posts: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'scaffold.css' %>
+  <%= stylesheet_link_tag 'sunny/jquery-ui-1.8.custom.css' %>
+  <%= javascript_include_tag 'jquery-1.4.2.min.js' %>
+  <%= javascript_include_tag 'jquery-ui-1.8.custom.min.js' %>
+  <%= javascript_include_tag 'rails.js' %>
+  <%= javascript_include_tag 'application.js' %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<div id="header">
+	<ul>
+		<li><%= link_to "home", root_path %></li>
+		<li><%= link_to "posts", posts_path %></li>
+	</ul>
+</div>
+
+<p class="notice"><%= notice %></p>
+
+<%= yield %>
+
+</body>
+</html>

@@ -22,3 +22,6 @@ gem "sqlite3-ruby", :require => "sqlite3"
 # group :test do
 #   gem "webrat"
 # end
+
+gem 'faker'
+gem 'timecop'
